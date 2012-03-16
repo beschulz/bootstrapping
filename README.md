@@ -8,6 +8,8 @@ a lenny one. Also some packages have been added.
 ---
 
 ## To Use this script to create an image with openqrm, run:
+    git clone git://github.com/beschulz/bootstrapping.git
+    cd bootstrapping
     mkdir -p /var/lib/lxc/squeeze
     ./lxc-squeeze -p /var/lib/lxc/squeeze
     cd /var/lib/lxc/squeeze/rootfs 
