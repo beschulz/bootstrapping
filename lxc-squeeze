@@ -94,7 +94,10 @@ isc-dhcp-client,\
 netbase,\
 net-tools,\
 iproute,\
-openssh-server
+openssh-server,\
+command-not-found,\
+joe,\
+unattended-upgrades
 
     cache=$1
     arch=$2
